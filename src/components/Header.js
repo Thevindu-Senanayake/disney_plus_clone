@@ -31,6 +31,7 @@ function Header() {
 					<span>series</span>
 				</a>
 			</Navbar>
+			<UserProPic src="https://imgr.search.brave.com/7gdcOWv3cfxZTomC6xs2tEPXEy6fqsmCyBI7cbcl-VM/fit/1200/1080/ce/1/aHR0cHM6Ly9kbTBx/eDh0MGk5Z2M5LmNs/b3VkZnJvbnQubmV0/L3RodW1ibmFpbHMv/dmlkZW8vQmtOWUot/cV9naXl5aHJ4Y3Uv/dmlkZW9ibG9ja3Mt/cHJvZmVzc2lvbmFs/LXByb2dyYW1tZXIt/d3JpdGluZy1hLXBy/b2dyYW1taW5nLWNv/ZGVfcjZnb2N3di1r/el90aHVtYm5haWwt/MTA4MF8wMS5wbmc" />
 		</Container>
 	)
 }
@@ -48,10 +49,13 @@ const Container = styled.div`
 
 const Logo = styled.img`
 	width: 80px;
+	cursor: pointer;
 `
 
 const Navbar = styled.div`
 	display: flex;
+	flex: 1;
+	margin-left: 25px;
 
 	a {
 		display: flex;
@@ -66,6 +70,14 @@ const Navbar = styled.div`
 			font-size: 13px;
 			letter-spacing: 1.42px;
 			text-transform: uppercase;
+			cursor: pointer;
 		}
 	}
+`
+
+const UserProPic = styled.img`
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	cursor: pointer;
 `
