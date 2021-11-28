@@ -28,9 +28,9 @@ export default Viewers
 const Container = styled.div`
 	margin-top: 30px;
 	display: grid;
+	padding: 30px 0 26px;
 	grid-template-columns: repeat(5, minmax(0, 1fr));
 	grid-gap: 25px;
-	padding: 30px 0 26px;
 `
 
 const Wrapper = styled.div`
