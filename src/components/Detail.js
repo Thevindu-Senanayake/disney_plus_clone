@@ -125,7 +125,6 @@ const GroupWatchButton = styled(AddButton)`
 `
 
 const SubTitle = styled.div`
-	background: rgb(249, 249, 249);
 	font-size: 15px;
 	min-height: 20px;
 	margin-top: 26px;
